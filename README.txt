@@ -1,6 +1,6 @@
 # Android App Programming in Java — BMI Computation
 
-This project is an Ansame droid application that calculates the Body Mass Index (BMI) based on user inputs for height (in feet and inches) and weight (in pounds). The app consists of two activities: a main activity for input and a result activity for displaying the computed BMI and corresponding suggestions.
+This project is an Android application that calculates the Body Mass Index (BMI) based on user inputs for height (in feet and inches) and weight (in pounds). The app consists of two activities: a main input activity and a result activity that displays the computed BMI and corresponding suggestions.
 
 ## Activities
 
