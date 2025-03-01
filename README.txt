@@ -1,12 +1,32 @@
-Company Structures Simulation with COMPOSITE Pattern
+# Android App Programming in Java — BMI Computation
 
-This project demonstrates the use of the Composite design pattern in Java to simulate a company's organizational structure. The goal is to create a hierarchy of departments, each capable of representing individual departments or groups of departments. This assignment consists of six Java files implementing the required functionality.
+This project is an Ansame droid application that calculates the Body Mass Index (BMI) based on user inputs for height (in feet and inches) and weight (in pounds). The app consists of two activities: a main activity for input and a result activity for displaying the computed BMI and corresponding suggestions.
 
-The assignment will incorporate the following classes for the Composite pattern:
+## Activities
 
-1. Department.java (Interface)
-2. FinancialDepartment.java (Leaf)
-3. SalesDepartment.java (Leaf)
-4. HRDepartment.java (Leaf)
-5. HeadDepartment.java (Composite)
-6. Main.java (Client)
+### Main Activity
+- Users can input height and weight.
+- A button to compute the BMI.
+
+### Result Activity
+- Displays the computed BMI.
+- Shows suggestions based on the BMI category.
+- A button to go back to the main activity and reset inputs.
+
+## Technologies Used
+- Java
+- Android SDK
+- XML (for UI design)
+
+## How to Run
+1. Clone the repository:
+   ```sh
+   git clone <repository_url>
+   ```
+2. Open the project in Android Studio.
+3. Build and run the application on an emulator or a physical device.
+
+## Future Enhancements
+- Add metric unit support (kg/meters)
+- Improve UI/UX with better styling
+- Store user BMI history using SharedPreferences or a local database
